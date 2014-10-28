@@ -22,18 +22,20 @@
 	padding: 0;
 }
 
-.cbp-fwslider ul li > a,
+.cbp-fwslider ul li > div.sliderWrap,
 .cbp-fwslider ul li > div {
 	display: block;
 	text-align: center;
 	outline: none;
 }
 
-.cbp-fwslider ul li > a img {
+.cbp-fwslider ul li > div.sliderWrap img {
 	border: none;
 	display: block;
 	margin: 0 auto;
-	max-width: 75%;
+	max-width: auto;
+	max-height: 620px;
+	width: 100%;
 }
 
 .cbp-fwslider nav span {
